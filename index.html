@@ -30,16 +30,34 @@
 </head>
 <body>
     <header>
+        <!-- Logo -->
+        <a href="#" class="logo">Jack Ian Pownall</a>
+        <!-- Hamburger Menu -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
         <nav>
             <!-- Navigation content -->
-             <h1>Jack Ian Pownall</h1>
-             <h2>Translator, Journalist, Menace.</h2>
+            <ul class="menu">
+                <li><a href="#">Nav 1</a></li>
+                <li><a href="#">Nav 2</a></li>
+                <li><a href="#">Nav 3</a></li>
+                <li><a href="#">Nav 4</a></li>
+            </ul>
         </nav>
     </header>
     
-    <main>
-        <section>
-            <!-- Main content -->
+    <main class="flow content-grid">
+        <!-- Main content -->
+        <section class="hero full-width">
+            <video width="100%" autoplay muted loop disablepictureinpicture disableremoteplayback class="full-width">
+                <source src="assets/videos/JP-Website-Hero-Visual-2K-HEVC.mp4" type='video/mp4; codecs="hvc1.2.4.L153.b0"'>
+                <source src="assets/videos/JP-Website-Hero-Visual-2K-H264.mp4" type='video/mp4; codecs="avc1.640032"'>
+
+                Your browser does not support the video tag.
+            </video>
+            <h1 class="breakout">Jack Pownall | Translator</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed</p>
         </section>
     </main>
     
